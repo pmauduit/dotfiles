@@ -1,0 +1,32 @@
+[user] 
+  name = Pierre Mauduit
+#  email = pierre.mauduit@example.tld
+
+[giggle]
+  main-window-maximized = true
+  main-window-geometry = 0x0+0+0
+  file-view-vpane-position = 331
+  history-view-vpane-position = 806
+  main-window-view = FileView
+[color]
+  ui = auto
+
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  dc = diff --cached
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+
+[push]
+  default = tracking
+[core]
+  ignore = dirty
+  autocrlf = false
+[http]
+  sslVerify = false
